@@ -1,11 +1,16 @@
 {
   "name": "typing_game",
   "version": "1.0.0",
-  "description": "typing game",
+  "description": "Javascript typing game",
   "main": "index.js",
+  "homepage":"https://kahlilashanti.github.io/speed_typing",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d typing_game"
   },
   "author": "Kahlil Ashanti",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^1.2.0"
+  }
 }
