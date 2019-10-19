@@ -4,13 +4,13 @@ window.addEventListener('load', init);
 
 // available levels
 const levels = {
-  easy: 5,
+  easy: 10,
   medium: 3,
   hard: 1
 }
 
 //to change level
-const currentLevel = levels.medium
+const currentLevel = levels.easy
 
 let time = currentLevel;
 let score = 0;
@@ -26,35 +26,35 @@ const message = document.querySelector('#message');
 const seconds = document.querySelector('#seconds');
 
 const words = [
-'condition',
-'separate',
+'tear',
+'rest',
 'temper',
 'whip',
 'oranges',
 'flash',
 'play',
-'rest',
-'zany',
+'rust',
+'espanol',
 'suit',
-'silent',
-'shallow',
+'fluent',
+'wimp',
 'loud',
 'crazy',
 'noisy',
-'fumbling',
-'teaching',
-'jump',
+'stinky',
+'daddy',
+'marquee',
 'horses',
-'stamp',
+'stump',
 'poke',
 'shelf',
 'obese',
 'love',
-'ad hoc',
-'instinctive',
+'stamp',
+'fred',
 'hair',
 'matter',
-'ill-informed',
+'cat',
 'hobbies'
 ];
 

@@ -6,7 +6,7 @@
   "homepage":"https://kahlilashanti.github.io/speed_typing",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages -d typing_game"
+    "deploy": "gh-pages -d dist"
   },
   "author": "Kahlil Ashanti",
   "license": "ISC",
